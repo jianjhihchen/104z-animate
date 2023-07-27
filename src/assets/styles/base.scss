@@ -1,0 +1,43 @@
+@use 'normalize.css/normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap');
+
+html,
+body {
+  display: flex;
+  overflow: hidden;
+  height: 100%;
+  font-family: 'Noto Sans TC', Roboto, Arial, 'Microsoft JhengHei Modify', 'Microsoft JhengHei', PingFangTC, sans-serif;
+  flex-direction: column;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+figure {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img,
+svg {
+  -webkit-user-drag: none;
+}
+
+* {
+  box-sizing: border-box;
+}

@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  104z-temp:
+    image: node:16.15.1
+    container_name: "104z-temp"
+    volumes:
+      - ../:/usr/src/app
+    ports:
+      - 3000:3000
+    tty: true
